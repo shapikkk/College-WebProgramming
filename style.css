@@ -1,0 +1,35 @@
+body
+{
+    background-color: #3CB371;
+
+}
+
+button
+{
+    width: 2.4375em;
+}
+
+h1
+{
+    color: #2F4F4F;
+}
+
+p
+{
+    font-size: 1.375em;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td, th
+{
+    border: 1px solid black;
+}
+
+img
+{
+    width: 100%;
+}
