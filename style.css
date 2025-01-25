@@ -1,35 +1,79 @@
 body
 {
-    background-color: #3CB371;
-
+    /* background-color: Lime; */
+    height: 100vh;
 }
 
-button
-{
-    width: 2.4375em;
-}
-
-h1
-{
-    color: #2F4F4F;
-}
-
-p
-{
-    font-size: 1.375em;
-}
-
-table
-{
-    border-collapse: collapse;
-}
-
-td, th
-{
-    border: 1px solid black;
-}
-
-img
+header
 {
     width: 100%;
+    height: 20vh;
+    background-color: #6bc7f1;
+}
+
+nav
+{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(30, 45, 114);
+    margin: 0 auto;
+}
+
+div
+{
+    width: 100%;
+    height: 60vh;
+}
+
+/* aside
+{
+    width: 30%;
+    height: 60vh;
+    background-color: blue;
+    float: left;
+    text-align: center;
+}  */
+
+main
+{
+    width: 100%;
+    height: 60vh;
+    background-color: #1e6e86;
+    float: right;
+}
+
+footer
+{
+    width: 100%;
+    height: 30vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-article
+{
+    width: 40%;
+    height: 15vh;
+    background-color:  rgb(224, 207, 177);
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-article
+{
+    width: 59.62%;
+    height: 15vh;
+    background-color:  rgb(224, 207, 177);
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
